@@ -1,0 +1,2 @@
+# MongoDB $inc operator unexpected behavior with negative values
+This example demonstrates an uncommon error in MongoDB that can arise when using the `$inc` operator with negative values.  The issue occurs when attempting to decrement a counter that already has a value less than or equal to the decrement amount. This scenario can lead to a negative counter value, leading to unexpected application behavior.  The solution involves incorporating error handling or checks to prevent this.
